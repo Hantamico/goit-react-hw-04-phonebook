@@ -1,0 +1,29 @@
+.contacts__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+
+  width: 300px;
+  height: 40px;
+
+  -webkit-box-shadow: -5px 7px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -5px 7px 20px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -5px 7px 20px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 15px;
+
+  padding: 5px;
+}
+
+.contacts__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.delete__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  width: 80px;
+  border-radius: 15px;
+}
